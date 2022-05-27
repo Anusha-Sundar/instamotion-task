@@ -1,0 +1,16 @@
+{
+  "name": "automation-project-cypress",
+  "version": "1.0.0",
+  "description": "instamotion Assurance Task",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec cypress/integration/*/*.spec.js",
+    "cypress:run-browser": "cypress run --browser chrome --spec cypress/integration/*/*.spec.js"
+  },
+  "author": "Anusha",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
